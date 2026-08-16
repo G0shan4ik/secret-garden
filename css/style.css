@@ -474,3 +474,14 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; color: var(--burgundy-
   .fade-item { opacity: 1; transform: none; }
   .fade-item.is-in { animation: none; }
 }
+
+.welcome__title {
+  margin: 0 0 2rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--color-cream);
+}
